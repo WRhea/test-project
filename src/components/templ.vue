@@ -1,5 +1,5 @@
 <template>
-  <div class="template">
+  <div class="template big-size">
     {{ message }}
   </div>
 </template>
@@ -15,4 +15,5 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+</style>

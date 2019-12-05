@@ -1,5 +1,5 @@
 <template>
-  <div class="cycle">
+  <div class="cycle big-size">
     <div v-for="(item,index) in maps" :key="index">
       <li>{{item}}</li>
     </div>
@@ -18,5 +18,8 @@ export default {
 </script>
 
 <style>
+.cycle {
+  list-style: none;
+}
 
 </style>

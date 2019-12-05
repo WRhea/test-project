@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="label">{{value}}</div>
-    <input v-model="value"/>
+    <input class="beautify-input" v-model="value"/>
+    <div class="label big-size">{{value}}</div>
   </div>
 </template>
 
